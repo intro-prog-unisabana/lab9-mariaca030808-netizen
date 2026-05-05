@@ -22,4 +22,4 @@ if __name__ == "__main__":
     # TODO: Construct a Movie object!
     # TODO: Print the object!
     my_movie = Movie(title, director, year)
-print(my_movie)
+    print(my_movie)
