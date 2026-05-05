@@ -17,7 +17,7 @@ def main():
         if choice == '1':
           """TODO: Call the appropriate function from utils.py to create 
           the car, add it to the dictionary, and print the car."""
-          new_car = create_car_from_input()
+          new_car= create_car_from_input()
           cars[new_car.car_id] = new_car
           print(new_car)
           print("Car added.")
@@ -34,7 +34,7 @@ def main():
           miles = float(input("How many miles to drive?\n"))
           """TODO: Look up the car in the dictionary, call the appropriate
           class method to increase the mileage of the car, and print the car."""
-          
+
           
         elif choice == '4':
           car_id = input("Enter the car ID to paint:\n")
